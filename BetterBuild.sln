@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.106
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BetterBuild", "BetterBuild\BetterBuild.csproj", "{905FF1A0-94B5-43AA-A9B1-17BE7DD00224}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		SRML|Any CPU = SRML|Any CPU
+		SRML NoVer|Any CPU = SRML NoVer|Any CPU
+		Standalone|Any CPU = Standalone|Any CPU
+		Standalone NoVer|Any CPU = Standalone NoVer|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{905FF1A0-94B5-43AA-A9B1-17BE7DD00224}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{905FF1A0-94B5-43AA-A9B1-17BE7DD00224}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{905FF1A0-94B5-43AA-A9B1-17BE7DD00224}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{905FF1A0-94B5-43AA-A9B1-17BE7DD00224}.Release|Any CPU.Build.0 = Release|Any CPU
+		{905FF1A0-94B5-43AA-A9B1-17BE7DD00224}.SRML|Any CPU.ActiveCfg = SRML|Any CPU
+		{905FF1A0-94B5-43AA-A9B1-17BE7DD00224}.SRML|Any CPU.Build.0 = SRML|Any CPU
+		{905FF1A0-94B5-43AA-A9B1-17BE7DD00224}.SRML NoVer|Any CPU.ActiveCfg = SRML NoVer|Any CPU
+		{905FF1A0-94B5-43AA-A9B1-17BE7DD00224}.SRML NoVer|Any CPU.Build.0 = SRML NoVer|Any CPU
+		{905FF1A0-94B5-43AA-A9B1-17BE7DD00224}.Standalone|Any CPU.ActiveCfg = Standalone|Any CPU
+		{905FF1A0-94B5-43AA-A9B1-17BE7DD00224}.Standalone|Any CPU.Build.0 = Standalone|Any CPU
+		{905FF1A0-94B5-43AA-A9B1-17BE7DD00224}.Standalone NoVer|Any CPU.ActiveCfg = Standalone NoVer|Any CPU
+		{905FF1A0-94B5-43AA-A9B1-17BE7DD00224}.Standalone NoVer|Any CPU.Build.0 = Standalone NoVer|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B3FE2E31-C274-43C9-8FEF-955154ADE45E}
+	EndGlobalSection
+EndGlobal

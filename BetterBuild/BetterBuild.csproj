@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{905FF1A0-94B5-43AA-A9B1-17BE7DD00224}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BetterBuild</RootNamespace>
+    <AssemblyName>BetterBuild</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Builds\BetterBuild\</OutputPath>
+    <DefineConstants>CUSTOM</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'SRML|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Builds\BetterBuild\</OutputPath>
+    <DefineConstants>SRML</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'SRML NoVer|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Builds\BetterBuild\</OutputPath>
+    <DefineConstants>SRML</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Standalone|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Builds\BetterBuild\</OutputPath>
+    <DefineConstants>CUSTOM</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Standalone NoVer|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Builds\BetterBuild\</OutputPath>
+    <DefineConstants>CUSTOM</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="0Harmony, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Slime Rancher\SlimeRancher_Data\Managed\0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Slime Rancher\SlimeRancher_Data\Managed\Assembly-CSharp-firstpass.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp_publicized">
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Slime Rancher\SlimeRancher_Data\Managed\publicized_assemblies\Assembly-CSharp_publicized.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Slime Rancher\SlimeRancher_Data\Managed\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Slime Rancher\SlimeRancher_Data\Managed\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityCoreMod, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Slime Rancher\SlimeRancher_Data\Managed\UnityCoreMod.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Slime Rancher\SlimeRancher_Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Slime Rancher\SlimeRancher_Data\Managed\UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Slime Rancher\SlimeRancher_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Slime Rancher\SlimeRancher_Data\Managed\UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Slime Rancher\SlimeRancher_Data\Managed\UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Slime Rancher\SlimeRancher_Data\Managed\UnityEngine.InputLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Slime Rancher\SlimeRancher_Data\Managed\UnityEngine.InputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Slime Rancher\SlimeRancher_Data\Managed\UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreModule">
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Slime Rancher\SlimeRancher_Data\Managed\UnityEngine.TextCoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Slime Rancher\SlimeRancher_Data\Managed\UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Slime Rancher\SlimeRancher_Data\Managed\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Slime Rancher\SlimeRancher_Data\Managed\UnityEngine.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Slime Rancher\SlimeRancher_Data\Managed\UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BB_Geometry.cs" />
+    <Compile Include="BB_RaycastHit.cs" />
+    <Compile Include="BetterBuildCamera.cs" />
+    <Compile Include="BetterBuildMod.cs" />
+    <Compile Include="BuildObjectsData.cs" />
+    <Compile Include="ObjExporter.cs" />
+    <Compile Include="UI\InfoUI.cs" />
+    <Compile Include="Utils\GameobjectExtensions.cs" />
+    <Compile Include="Gizmo\GizmoEnums.cs" />
+    <Compile Include="Gizmo\GizmoObject.cs" />
+    <Compile Include="Gizmo\GizmoMesh.cs" />
+    <Compile Include="Gizmo\GizmoTransform.cs" />
+    <Compile Include="Gizmo\GizmoUtility.cs" />
+    <Compile Include="Globals.cs" />
+    <Compile Include="Initializers\CellInitializer.cs" />
+    <Compile Include="Loaders\Custom.cs" />
+    <Compile Include="MapConverter.cs" />
+    <Compile Include="MeshSimplifier\BlendShape.cs" />
+    <Compile Include="MeshSimplifier\Components\LODBackupComponent.cs" />
+    <Compile Include="MeshSimplifier\Components\LODGeneratorHelper.cs" />
+    <Compile Include="MeshSimplifier\LODGenerator.cs" />
+    <Compile Include="MeshSimplifier\LODLevel.cs" />
+    <Compile Include="MeshSimplifier\MeshCombiner.cs" />
+    <Compile Include="MeshSimplifier\MeshSimplifier.cs" />
+    <Compile Include="MeshSimplifier\SimplificationOptions.cs" />
+    <Compile Include="MeshSimplifier\Utility\MathHelper.cs" />
+    <Compile Include="MeshSimplifier\Utility\MeshUtils.cs" />
+    <Compile Include="MeshSimplifier\Utility\ResizableArray.cs" />
+    <Compile Include="MeshSimplifier\Utility\SymmetricMatrix.cs" />
+    <Compile Include="MeshSimplifier\Utility\Vector3d.cs" />
+    <Compile Include="MissingEditor.cs" />
+    <Compile Include="Models\TeleportModel.cs" />
+    <Compile Include="ObjectEditor.cs" />
+    <Compile Include="ObjectHighlight.cs" />
+    <Compile Include="ObjectManager.cs" />
+    <Compile Include="ObjectSelection.cs" />
+    <Compile Include="Patches\Patch_AchievementsDirector.cs" />
+    <Compile Include="Patches\Patch_AutoSaveDirector.cs" />
+    <Compile Include="Patches\Patch_FileStorageProvider.cs" />
+    <Compile Include="Patches\Patch_Identifiable.cs" />
+    <Compile Include="Patches\Patch_IdHandler.cs" />
+    <Compile Include="Patches\Patch_IntroUI.cs" />
+    <Compile Include="Patches\Patch_JournalEntry.cs" />
+    <Compile Include="Patches\Patch_KillOnTrigger.cs" />
+    <Compile Include="Patches\Patch_PauseMenu.cs" />
+    <Compile Include="Patches\Patch_PlayerModel.cs" />
+    <Compile Include="Patches\Patch_PopupDirector.cs" />
+    <Compile Include="Patches\Patch_SavedGame.cs" />
+    <Compile Include="Patches\Patch_SpawnResource.cs" />
+    <Compile Include="Patches\Patch_TutorialDirector.cs" />
+    <Compile Include="Patches\Patch_ZoneDirector.cs" />
+    <Compile Include="Models\BuildObject.cs" />
+    <Compile Include="Persistance\BuildObjectV01.cs" />
+    <Compile Include="Persistance\BuildObjectV02.cs" />
+    <Compile Include="Persistance\BuildObjectV03.cs" />
+    <Compile Include="Persistance\BuildObjectV04.cs" />
+    <Compile Include="Persistance\StringV01.cs" />
+    <Compile Include="Persistance\World.cs" />
+    <Compile Include="Persistance\WorldV01.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AssemblyInfo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\UndoDestroy.cs" />
+    <Compile Include="Tools\UndoDublicate.cs" />
+    <Compile Include="Tools\UndoHandlemove.cs" />
+    <Compile Include="Tools\UndoSelection.cs" />
+    <Compile Include="UI\HierarchyUI.cs" />
+    <Compile Include="UI\InspectorBase.cs" />
+    <Compile Include="UI\InspectorInput.cs" />
+    <Compile Include="UI\InspectorUI.cs" />
+    <Compile Include="UI\InspectorVector3UI.cs" />
+    <Compile Include="UI\SettingsUI.cs" />
+    <Compile Include="UI\TeleportUI.cs" />
+    <Compile Include="UI\ToolbarUI.cs" />
+    <Compile Include="Tools\Callback.cs" />
+    <Compile Include="Tools\IUndo.cs" />
+    <Compile Include="Tools\UndoManager.cs" />
+    <Compile Include="Tools\UndoInstantiate.cs" />
+    <Compile Include="Utils\RuntimePreviewGenerator.cs" />
+    <Compile Include="Utils\Utils.cs" />
+    <Compile Include="WireEditor.cs" />
+    <Compile Include="ZoneEditor.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="buildObjects.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Properties\AssemblyInfo.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>AssemblyInfo.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="betterbuild.dat" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+</Project>
