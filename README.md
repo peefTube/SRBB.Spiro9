@@ -1,3 +1,7 @@
+# Spiro9's Better Build
+
+This is my personal BB repo to update over time and get used to how Unity programming works, while also potentially providing something the community might be able to use. I will have to spend a lot of time running over the code and getting everything working, but hopefully I can implement some things.
+
 # BetterBuildPublic
 
 Public release of the BetterBuild mod.
